@@ -678,7 +678,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 .navigation {
   background: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .navigation .navbar {
@@ -994,6 +994,23 @@ font header .navbar-default .navbar-nav li a:hover {
 
 .portfolio-single-page .project-details ul li {
   margin-bottom: 10px;
+}
+
+.inline-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.inline-popup > * {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .testimonial {
