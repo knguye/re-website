@@ -1013,6 +1013,10 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: auto;
 }
 
+.inline-popup > img {
+  max-width: 80%;
+}
+
 .testimonial {
   padding: 100px 0;
 }
