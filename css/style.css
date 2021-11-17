@@ -651,10 +651,12 @@ header {
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
+  padding-bottom: 20px;
 }
 
 header .navbar-brand {
   padding-top: 5px;
+
 }
 
 header .navbar-default {
@@ -737,7 +739,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .slider {
-  background: url("../images/slider-bg.jpg") no-repeat;
+  background: url("/images/power-grid.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -996,26 +998,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 10px;
 }
 
-.inline-popup {
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
-}
 
-.inline-popup > * {
-  text-align: center;
-  justify-content: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inline-popup > img {
-  max-width: 80%;
-}
 
 .testimonial {
   padding: 100px 0;
