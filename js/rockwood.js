@@ -1,12 +1,12 @@
 $(document).ready(function () {
 	'use strict';
-	$('.portfolio-popup-parent').magnificPopup({
+	$('.portfolio-popup-truly-green').magnificPopup({
 		items: [
 			{
-				src: ("#my-popup") // Needs to be dynamically chosen for each block
+				src: ("#truly-green") // Needs to be dynamically chosen for each block
 			},
 			{
-				src: ("#my-gallery-1")
+				src: ("#truly-green-gallery-1")
 			}
 		],
 		type: "inline",
@@ -15,5 +15,11 @@ $(document).ready(function () {
 		}
 	});
 
-	$('.navbar-brand')
+	//$('.navbar-brand')
+
+	/*
+	$(".boxLink").click(function(){
+		window.location = $(this).find("a").attr("href");
+		return false;
+	});*/
 });
